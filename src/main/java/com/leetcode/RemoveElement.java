@@ -1,3 +1,5 @@
+package com.leetcode;
+
 public class RemoveElement {
     private int[] nums;
 

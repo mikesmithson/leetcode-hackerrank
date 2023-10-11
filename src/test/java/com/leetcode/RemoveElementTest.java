@@ -1,3 +1,6 @@
+package com.leetcode;
+
+import com.leetcode.RemoveElement;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;

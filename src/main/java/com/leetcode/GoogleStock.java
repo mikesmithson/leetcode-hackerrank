@@ -1,3 +1,5 @@
+package com.leetcode;
+
 public class GoogleStock {
     public static long solution(int[] prices) {
         int maxProfit = 0;
