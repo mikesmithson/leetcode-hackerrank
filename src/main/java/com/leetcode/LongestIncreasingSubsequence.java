@@ -23,7 +23,7 @@ public class LongestIncreasingSubsequence {
 
     public static void main(String[] args) {
         LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
-        int result = longestIncreasingSubsequence.lengthOfLongestIncreasingSubsequence(new int[]{1,2});
+        int result = longestIncreasingSubsequence.lengthOfLongestIncreasingSubsequence(new int[]{1,3,2});
         System.out.println("The longest increasing subsequence is: " + result);
     }
 
