@@ -13,4 +13,11 @@ public class MonotonicTest {
         int[] nums = new int[]{1,3,2};
         assertThat(monotonic.isMonotonic(nums)).isFalse();
     }
+
+
+    @Test
+    public void given_1_1_1_return_true() {
+        int[] nums = new int[]{1,1,1};
+        assertThat(monotonic.isMonotonic(nums)).isTrue();
+    }
 }

@@ -15,7 +15,7 @@ public class Monotonic {
                 decreasing = false;
             }
         }
-        return !(increasing == true && decreasing == true);
+        return increasing || decreasing;
     }
 }
 
