@@ -1,6 +1,6 @@
-package com.discover;
+package com.discover.revision.three;
 
-public class MissingNumber3 {
+public class MissingNumber {
     public int missingNumber(int[] nums) {
         int startNumber = Integer.MAX_VALUE;
         int endNumber = Integer.MIN_VALUE;
@@ -21,7 +21,7 @@ public class MissingNumber3 {
     }
 
     public static void main(String[] args) {
-        MissingNumber3 missing = new MissingNumber3();
+        MissingNumber missing = new MissingNumber();
         System.out.println(missing.missingNumber(new int[]{1, 2, 4, 6, 3, 7, 8}));
     }
 }

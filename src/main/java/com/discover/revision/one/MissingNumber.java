@@ -1,4 +1,4 @@
-package com.discover;
+package com.discover.revision.one;
 
 public class MissingNumber {
     public int missingNumber(int[] array, int N) {

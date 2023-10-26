@@ -1,10 +1,10 @@
-package com.discover;
+package com.discover.revision.two;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MissingNumber2 {
+public class MissingNumber {
     public int missingNumber(int[] array) {
         List<Integer> listOfNums = new ArrayList<>();
         for (int j : array) {
@@ -20,7 +20,7 @@ public class MissingNumber2 {
     }
 
     public static void main(String[] args) {
-        MissingNumber2 missing = new MissingNumber2();
+        MissingNumber missing = new MissingNumber();
         System.out.println(missing.missingNumber(new int[]{1, 2, 4, 6, 3, 7, 8}));
     }
 }
