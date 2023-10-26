@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MissingNumberPartII {
+public class MissingNumber2 {
     public int missingNumber(int[] array) {
         List<Integer> listOfNums = new ArrayList<>();
         for (int j : array) {
@@ -20,7 +20,7 @@ public class MissingNumberPartII {
     }
 
     public static void main(String[] args) {
-        MissingNumberPartII missing = new MissingNumberPartII();
+        MissingNumber2 missing = new MissingNumber2();
         System.out.println(missing.missingNumber(new int[]{1, 2, 4, 6, 3, 7, 8}));
     }
 }
