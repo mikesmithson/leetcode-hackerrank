@@ -7,8 +7,8 @@ public class StaticInitializers {
     static int height = 0;
     static {
         Scanner scanner = new Scanner(System.in);
-        base = Integer.valueOf(scanner.nextLine());
-        height = Integer.valueOf(scanner.nextLine());
+        base = Integer.parseInt(scanner.nextLine());
+        height = Integer.parseInt(scanner.nextLine());
         if (base < 0 || height < 0) {
             throw new IllegalArgumentException("Breadth and height must be positive");
         }
