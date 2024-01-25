@@ -13,7 +13,6 @@ public class GoogleStock {
 
 
     public static void main(String[] args) {
-        GoogleStock stock = new GoogleStock();
         long solution = GoogleStock.solution(new int[]{7, 1, 5, 3, 6, 4});
         assert solution == 5;
         System.out.println("Profit = " + solution);
