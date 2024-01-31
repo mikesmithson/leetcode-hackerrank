@@ -2,3 +2,4 @@
 .idea
 .gitattributes
 build
+.java-version
