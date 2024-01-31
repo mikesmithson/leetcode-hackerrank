@@ -1,8 +1,5 @@
 package com.leetcode;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Monotonic {
     public boolean isMonotonic(int[] nums) {
         boolean increasing = true;
