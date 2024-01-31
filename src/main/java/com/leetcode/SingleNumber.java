@@ -8,10 +8,10 @@ public class SingleNumber {
 
     public int singleNumber(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            if (dictionary.contains(Integer.valueOf(nums[i]))) {
-                dictionary.remove(Integer.valueOf(nums[i]));
+            if (dictionary.contains(nums[i])) {
+                dictionary.remove(nums[i]);
             } else {
-                dictionary.add(Integer.valueOf(nums[i]));
+                dictionary.add(nums[i]);
             }
         }
         return dictionary.stream().distinct().findFirst().orElse(-1);
