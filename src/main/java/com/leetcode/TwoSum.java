@@ -1,24 +1,18 @@
 package com.leetcode;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
+import java.util.LinkedHashMap;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        int firstIndex = -1;
-        int secondIndex = -1;
-        int nextNumber;
-        first:
-        for (int i = 0; i < nums.length; i++) {
-            firstIndex = i;
-            nextNumber = target - nums[i];
-            for (int j = 1; j < nums.length; j++) {
-                if (nums[j] == nextNumber && j != i) {
-                    secondIndex = j;
-                    break first;
-                }
+        LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
+
+        for (int index = 0; index < nums.length; index++) {
+            int compliment = target - nums[index];
+            if (map.containsKey(compliment)) {
+                return new int[]{map.get(compliment), index};
             }
+            map.put(nums[index], index);
         }
-        return new int[]{firstIndex, secondIndex};
+        return new int[]{-1, -1};
     }
 }
