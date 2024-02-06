@@ -1,8 +1,8 @@
 package com.leetcode;
 
 /*
- * Given an array of positive integers nums and an integer k, f
- * ind the length of the longest subarray whose sum is less than or equal to k
+ * Given an array of positive integers nums and an integer k,
+ * find the length of the longest subarray whose sum is less than or equal to k
  */
 public class LongestSubArray {
     public static int findLength(int[] nums, int k) {
